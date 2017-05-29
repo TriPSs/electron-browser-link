@@ -1,0 +1,7 @@
+node_modules
+.idea
+index.js
+electronBrowserLink.js
+Link.js
+
+!src/*

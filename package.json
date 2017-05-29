@@ -1,0 +1,37 @@
+{
+  "name": "electron-browser-link",
+  "version": "1.0.0",
+  "description": "Open links in desktops default browser",
+  "homepage": "https://github.com/TriPSs/electron-browser-link",
+  "bugs": {
+    "url": "https://github.com/TriPss/electron-browser-link/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Tycho Bokdam",
+    "email": "t.bokdam@seronaris.nl"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TriPSs/electron-browser-link.git"
+  },
+  "scripts": {
+    "build": "babel src -d ./",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel": "5.8.34",
+    "electron": "^1.6.7",
+    "react": "^15.5.0",
+    "prop-types": "^15.5.0"
+  },
+  "peerDependencies": {
+    "electron": "^1.6.7",
+    "react": "^15.5.0",
+    "prop-types": "^15.5.0"
+  },
+  "dependencies": {
+    "is-electron-renderer": "^2.0.1"
+  }
+}
