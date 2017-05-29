@@ -4,7 +4,25 @@
 
 > Open links in desktops default browser
 
-Electron-Browser-Link  
+Example
+```js
+import Link from 'electron-browser-link'
+import { electronBrowserLink } from 'electron-browser-link'
+
+class AboutUs extends React.Component {
+  
+  render() {
+    return (
+      <div>
+      ...
+      
+      <Link to={'https://our.site'}>Our site</Link>
+      <a onClick={() => electronBrowserLink('https://our.site')}>Our site</a>
+      </div>
+    )
+  }
+}
+```
 
 ### Installation
 ```shell
